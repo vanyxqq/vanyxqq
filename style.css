@@ -1,1 +1,322 @@
+html{
+zoom: 100%; 
+}
+body{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    
+}
+h2{
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #575757;
+}
+
+
+header{
+    position: relative;
+    height: 100px;
+    top: 70px;
+    width: 100%;
+    background: #d000ff;
+    display: flex;
+    align-items: center;
+}
+
+
+nav{
+    position: absolute;
+    width: 50%;
+    left: 358px;
+    top: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.nav-link{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+
+.nav-link:first-child{
+    font-weight: 700;  
+    color: #FFFFFF;
+}
+
+
+.nav-link:hover:first-child{
+    color: #1E1E1E;
+}
+
+
+.nav-link:hover{
+    font-weight: 700;
+    color: #FFFFFF;
+    transition: 0.2s ease-in;
+}
+
+
+.logo{
+    position: absolute;
+    width: 15%;
+    left: 88px;
+    top: 20%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+
+main{
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+
+
+.info{
+    position: relative;
+    width: 100%;
+    height: 528px;
+    left: 0px;
+    top: 50px;
+}
+.info-img{
+    position: absolute;
+    width: 30%;
+    left: 65%;
+}
+.info-div{
+    position: absolute;
+    left: 5%;
+    width: 50%;
+}
+.info-div h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    color: #575757;
+}
+.info-div p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #575757;
+    width: 90%;
+}
+.info-butt{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.call-butt{
+    background: #9000ff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+}
+.call-butt:hover{
+    background: #FFFFFF;
+    color: #2600ff;
+    border: 1px solid #000dff;
+    transition: 0.2s ease-out;
+}
+.menu-butt{
+   background: #FFFFFF;
+    border: 1px solid #0066ff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #00fff2;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+   
+}
+.menu-butt:hover{
+    background: #0073ff;
+    color: #FFFFFF;
+    transition: 0.2s ease-out;
+}
+
+
+.menu{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    left: 0px;
+    top:0;
+}
+.menu-div{
+    position: relative;
+    left: 88px;
+    margin: 10% 0%;
+}
+.menu-img{
+    width: 30%;
+   
+}
+.menu-info{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 0;
+   
+}
+.menu-info h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0720b1;
+}
+.menu-text{
+    width: 80%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E1E1E;
+}
+
+
+.sallary{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #00ffff;
+}
+.order{
+    background: #0037ff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 2% 10%;
+   
+}
+.order:hover{
+    background: #FFFFFF;
+    color: #00ffc8;
+    border: 1px solid #00bbff;
+    transition: 0.2s ease-out;
+}
+
+
+.sale{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 407px;
+    left: 0px;
+   
+}
+.sale-div{
+    display: flex;
+    justify-content: center;
+}
+.sale-img{
+    width: 190px;
+    height: 190px;
+    padding: 3% 5%;
+   
+}
+.about{
+    position: relative;
+    width: 100%;
+    height: 777px;
+    left: 0px;
+}
+.about-div{
+    width: 100%;
+    height: 90%;
+    background-image: url(about.png);
+    background-size: cover;  
+}
+.about-div p{
+    position: absolute;
+    width: 40%;
+    height: 273px;
+    left: 87px;
+    top: 187px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+
+
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    top: 270px;
+    height: 425px;
+    left: 0px;
+    background: #4400ff;
+}
+.footer-info{
+    position: absolute;
+    width: 30%;
+    left: 90px;
+    top: 10%;
+}
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.footer-info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+
+    color: #575757;
+}
+.footer-img{
+    width: 70px;
+    height: 70px;
+    margin-right: 3%;
+}
+.logo-img{
+    position: absolute;
+    left: 70%;
+    top:15%;
+    width: 15%;
+}
 
